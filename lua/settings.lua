@@ -4,6 +4,7 @@ local o = vim.opt
 o.syntax = 'on'                -- Enable syntax highlighting
 o.hidden = true                -- Allow buffer switching without saving
 
+o.encoding = "utf-8"		   -- Set encoding
 o.number = true                -- Show line numbers
 o.relativenumber = true        -- Show relative line numbers
 
@@ -12,7 +13,7 @@ o.inccommand = 'split'         -- Preview changes while typing
 o.tabstop = 4                  -- Set width of a tab character
 o.softtabstop = 4              -- Insert/delete 4 spaces when pressing Tab/Backspace
 o.shiftwidth = 4               -- Use 4 spaces when auto-indenting
-o.expandtab = false            -- Use tab character instead of spaces
+o.expandtab = true             -- Use tab character instead of spaces
 o.smartindent = true           -- Enable smart indentation
 
 o.wrap = false                 -- Disable line wrapping
