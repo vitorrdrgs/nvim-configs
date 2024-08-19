@@ -13,10 +13,6 @@ vim.keymap.set('n', '<leader>n', ':bn<CR>') -- Buffer next
 vim.keymap.set('n', '<leader>p', ':bp<CR>') -- Buffer previous
 vim.keymap.set('n', '<leader>x', ':bd<CR>') -- Buffer delete
 
-vim.keymap.set('n', ',v', '<C-w>v') -- Vertical split
-vim.keymap.set('n', ',w', '<C-w>s') -- Horizonta split
-vim.keymap.set('n', ',c', '<C-w>c') -- Close split
-
 vim.keymap.set('n', '<Esc>', ':nohlsearch<CR>') -- Remove highlight search
 
 vim.keymap.set('n', '<C-h>', '<C-w><C-h>') -- Move focus to the left window
