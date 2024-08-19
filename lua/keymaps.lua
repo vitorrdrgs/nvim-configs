@@ -4,9 +4,6 @@ local map = vim.keymap.set
 vim.g.mapleader = ' '
 
 -- Remaps
-map('n', '<leader>ev', ':vsplit ~/.config/nvim/init.lua<CR>')  -- Open init.lua
-map('n', '<leader>sv', ':source ~/.config/nvim/init.lua<CR>')  -- Source init.lua
-
 map("x", "<leader>p", [["_dP]]) -- Delete visual selected and paste the last buffer
 
 map({"n", "v"}, "<leader>y", [["+y]]) -- Copy selected text to system
@@ -33,4 +30,6 @@ map('n', '<C-h>', '<C-w><C-h>') -- Move focus to the left window
 map('n', '<C-l>', '<C-w><C-l>') -- Move focus to the right window
 map('n', '<C-j>', '<C-w><C-j>') -- Move focus to the lower window
 map('n', '<C-k>', '<C-w><C-k>') -- Move focus to the upper window
+
+map('n', '<leader>e', ':NvimTreeFindFileToggle<CR>') -- Open Nvim Tree Find File
 

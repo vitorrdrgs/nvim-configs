@@ -23,5 +23,16 @@ require('lazy').setup({
   'junegunn/fzf.vim',  -- FZF Vim integration
   'morhetz/gruvbox',  -- Gruvbox color scheme
   'terryma/vim-multiple-cursors',  -- Multiple cursors
+  {
+  "nvim-tree/nvim-tree.lua",
+  version = "*",
+  lazy = false,
+  dependencies = {
+    "nvim-tree/nvim-web-devicons",
+  },
+  config = function()
+    require("nvim-tree").setup {}
+  end,
+  }
 })
 

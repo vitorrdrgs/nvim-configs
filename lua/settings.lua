@@ -40,6 +40,8 @@ o.undofile = true              -- Save undo history
 
 o.cursorline = true            -- Show which line your cursor is on
 
+vim.g.have_nerd_font = true    -- Have nerd font true
+
 -- Color scheme configuration
 vim.cmd('colorscheme gruvbox')     -- Set colorscheme to gruvbox
 o.background = 'dark'          -- Use dark background
