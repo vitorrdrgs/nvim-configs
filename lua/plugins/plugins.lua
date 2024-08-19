@@ -19,12 +19,17 @@ vim.opt.rtp:prepend(lazypath)
 -- Setup plugins with lazy.nvim
 require('lazy').setup({
   { 'mg979/vim-visual-multi', branch = 'master' },  -- Multi-cursor support
+
   { 'junegunn/fzf', dir = '~/.fzf', build = './install --all' },  -- Fuzzy finder
+
   'junegunn/fzf.vim',  -- FZF Vim integration
+
   'morhetz/gruvbox',  -- Gruvbox color scheme
+
   'terryma/vim-multiple-cursors',  -- Multiple cursors
+
   {
-  "nvim-tree/nvim-tree.lua",
+  "nvim-tree/nvim-tree.lua",  -- Nvim Tree
   version = "*",
   lazy = false,
   dependencies = {
@@ -33,6 +38,8 @@ require('lazy').setup({
   config = function()
     require("nvim-tree").setup {}
   end,
-  }
+  },
+
+  {'akinsho/bufferline.nvim', version = "*", dependencies = 'nvim-tree/nvim-web-devicons'},  -- Buffer as tabs
 })
 

@@ -1,4 +1,4 @@
-local o = vim.o
+local o = vim.opt
 
 -- Basic configurations
 o.syntax = 'on'                -- Enable syntax highlighting
@@ -32,7 +32,6 @@ o.ignorecase = true
 o.smartcase = true
 
 o.showmode = true              -- Show the current mode in the command area
-o.termguicolors = true         -- Enable 24-bit RGB color in the terminal
 
 o.signcolumn = 'yes'           -- Keep signcolumn on by default'
 
@@ -41,8 +40,4 @@ o.undofile = true              -- Save undo history
 o.cursorline = true            -- Show which line your cursor is on
 
 vim.g.have_nerd_font = true    -- Have nerd font true
-
--- Color scheme configuration
-vim.cmd('colorscheme gruvbox')     -- Set colorscheme to gruvbox
-o.background = 'dark'          -- Use dark background
 

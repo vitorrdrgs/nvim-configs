@@ -1,5 +1,7 @@
 -- Load plugins and configurations
-require('plugins')
+require('plugins.plugins')
+require('plugins.options')
+require('plugins.keymaps')
 require('settings')
 require('keymaps')
 
