@@ -2,7 +2,7 @@
 vim.opt.termguicolors = true
 require("bufferline").setup{}
 
-vim.diagnostic.enable(false)
+vim.diagnostic.enable(false)       -- Hide lint diagnostic
 
 -- Color scheme configuration
 vim.cmd('colorscheme gruvbox')     -- Set colorscheme to gruvbox

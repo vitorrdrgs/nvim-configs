@@ -15,8 +15,9 @@ vim.keymap.set('n', '<leader>x', ':bd<CR>') -- Buffer delete
 
 vim.keymap.set('n', '<Esc>', ':nohlsearch<CR>') -- Remove highlight search
 
-vim.keymap.set('n', '<C-h>', '<C-w><C-h>') -- Move focus to the left window
-vim.keymap.set('n', '<C-l>', '<C-w><C-l>') -- Move focus to the right window
-vim.keymap.set('n', '<C-j>', '<C-w><C-j>') -- Move focus to the lower window
-vim.keymap.set('n', '<C-k>', '<C-w><C-k>') -- Move focus to the upper window
+-- Doesnt need because Tmux navigator is active
+-- vim.keymap.set('n', '<C-h>', '<C-w><C-h>') -- Move focus to the left window
+-- vim.keymap.set('n', '<C-l>', '<C-w><C-l>') -- Move focus to the right window
+-- vim.keymap.set('n', '<C-j>', '<C-w><C-j>') -- Move focus to the lower window
+-- vim.keymap.set('n', '<C-k>', '<C-w><C-k>') -- Move focus to the upper window
 
