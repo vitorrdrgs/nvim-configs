@@ -5,6 +5,5 @@ require("bufferline").setup{}
 vim.diagnostic.enable(false)       -- Hide lint diagnostic
 
 -- Color scheme configuration
-vim.cmd('colorscheme gruvbox')     -- Set colorscheme to gruvbox
-vim.opt.background = 'dark'              -- Use dark background
-
+vim.cmd('colorscheme catppuccin-mocha')     -- Set colorscheme to catppuccin-mocha
+-- vim.opt.background = 'dark'              -- Use dark background

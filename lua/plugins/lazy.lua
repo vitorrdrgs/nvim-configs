@@ -41,6 +41,8 @@ require('lazy').setup({
 
   'morhetz/gruvbox',  -- Gruvbox color scheme
 
+  { "catppuccin/nvim", name = "catppuccin", priority = 1000 }, -- Catpuccin color scheme
+
   'terryma/vim-multiple-cursors',  -- Multiple cursors
 
   -- Nvim Tree
