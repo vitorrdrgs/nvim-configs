@@ -15,6 +15,8 @@ o.softtabstop = 4              -- Insert/delete 4 spaces when pressing Tab/Backs
 o.shiftwidth = 4               -- Use 4 spaces when auto-indenting
 o.expandtab = true             -- Use tab character instead of spaces
 o.smartindent = true           -- Enable smart indentation
+o.smarttab = true
+o.autoindent = true
 
 o.wrap = false                 -- Disable line wrapping
 
