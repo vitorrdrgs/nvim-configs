@@ -2,8 +2,8 @@
 vim.g.mapleader = " "
 
 -- FZF and Telescope
-vim.keymap.set("n", "<leader>sf", ":Telescope find_files<CR>") -- File search
-vim.keymap.set("n", "<leader>sg", ":Telescope live_grep<CR>") -- Text search
+vim.keymap.set("n", "<leader>ff", ":Telescope find_files<CR>") -- Find file
+vim.keymap.set("n", "<leader>fs", ":Telescope live_grep<CR>") -- Find string
 
 -- Nvim Tree
 vim.keymap.set("n", "<leader>e", ":NvimTreeFindFileToggle<CR>") -- Open Nvim Tree Find File
