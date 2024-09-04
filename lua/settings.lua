@@ -34,8 +34,6 @@ o.splitbelow = true
 o.ignorecase = true
 o.smartcase = true
 
-o.showmode = true              -- Show the current mode in the command area
-
 o.signcolumn = 'yes'           -- Keep signcolumn on by default'
 
 o.undofile = true              -- Save undo history
