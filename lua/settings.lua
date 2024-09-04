@@ -6,7 +6,7 @@ o.hidden = true                -- Allow buffer switching without saving
 
 o.encoding = "utf-8"		   -- Set encoding
 o.number = true                -- Show line numbers
-o.relativenumber = true        -- Show relative line numbers
+o.relativenumber = false        -- Dont show relative line numbers
 
 o.inccommand = 'split'         -- Preview changes while typing
 
@@ -41,6 +41,7 @@ o.signcolumn = 'yes'           -- Keep signcolumn on by default'
 o.undofile = true              -- Save undo history
 
 o.cursorline = true            -- Show which line your cursor is on
+o.showmode = false             -- Dont show vim mode
 
 vim.g.have_nerd_font = true    -- Have nerd font true
 
