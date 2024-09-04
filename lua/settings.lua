@@ -6,7 +6,7 @@ o.hidden = true                -- Allow buffer switching without saving
 
 o.encoding = "utf-8"		   -- Set encoding
 o.number = true                -- Show line numbers
-o.relativenumber = false        -- Dont show relative line numbers
+o.relativenumber = true        -- Show relative line numbers
 
 o.inccommand = 'split'         -- Preview changes while typing
 

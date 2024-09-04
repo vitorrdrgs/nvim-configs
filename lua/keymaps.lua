@@ -16,7 +16,7 @@ vim.keymap.set('n', '<leader>x', ':bd<CR>') -- Buffer delete
 vim.keymap.set("n", "<C-b>", "<C-u>zz") -- Scroll up and center
 vim.keymap.set("n", "<C-d>", "<C-d>zz") -- Scroll down and center
 
-vim.keymap.set('n', '<Esc>', ':nohlsearch<CR>') -- Remove highlight search
+vim.keymap.set('n', '<C-c>', ':nohlsearch<CR>') -- Remove highlight search
 
 -- Doesnt need because Tmux navigator is active
 -- vim.keymap.set('n', '<C-h>', '<C-w><C-h>') -- Move focus to the left window
