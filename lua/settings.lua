@@ -20,7 +20,7 @@ o.autoindent = true
 
 o.wrap = false                 -- Disable line wrapping
 
-o.mouse = 'a'                  -- Enable mouse support in all modes
+o.mouse = ''                   -- Disable mouse support in all modes
 
 o.cursorline = true            -- Show which line your cursor is on
 o.scrolloff = 10               -- Minimal number of screen lines to keep above and below the cursor
